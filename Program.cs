@@ -6,8 +6,8 @@ namespace WindowAnimator
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            var App = new MainWindow();
-            App.Init();
+            var app = new MainWindow();
+            app.Init();
         }
     }
 }

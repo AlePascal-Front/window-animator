@@ -18,11 +18,16 @@ namespace WindowAnimator
             components = new Container();
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(width, height);
-            Text = "Form";
+            Text = "WindowAnimator - Main Window";
+            StartPosition = FormStartPosition.CenterScreen;
         }
 
         public void Init()
         {
+            // Sets up styles
+            InitializeComponent();
+
+            // This line initializes canvas
             Application.Run(this);
         }
     }
