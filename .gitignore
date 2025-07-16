@@ -1,1 +1,26 @@
 .git
+
+# Build results
+obj/
+# build folder is nowadays used for build scripts and should not be ignored
+#build/
+
+# files
+.dll
+.pdb
+
+*.suo
+*.user
+*.ncb
+
+# Ignore build stuff
+bin/
+obj/ 
+.vscode/
+.idea/
+
+# Optional
+*.log
+
+# I was thinking on ignoring '.sln' yet it is important
+# to maintain for VS users
